@@ -1,8 +1,8 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=wave&color=0:5B21B6,50:4338CA,100:0E7490&height=240&text=Ch1rpys&fontSize=64&fontColor=ffffff&animation=fadeIn&desc=AI%20%C2%B7%20%E9%9F%B3%E6%B8%B8%20%C2%B7%20%E5%86%85%E6%A0%B8%E7%A7%BB%E6%A4%8D&descAlign=center&descSize=18">
-    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=wave&color=0:C4B5FD,50:93C5FD,100:67E8F9&height=240&text=Ch1rpys&fontSize=64&fontColor=312E81&animation=fadeIn&desc=AI%20%C2%B7%20%E9%9F%B3%E6%B8%B8%20%C2%B7%20%E5%86%85%E6%A0%B8%E7%A7%BB%E6%A4%8D&descAlign=center&descSize=18">
-    <img alt="Ch1rpys" src="https://capsule-render.vercel.app/api?type=wave&color=0:C4B5FD,50:93C5FD,100:67E8F9&height=240&text=Ch1rpys&fontSize=64&fontColor=312E81&animation=fadeIn&desc=AI%20%C2%B7%20%E9%9F%B3%E6%B8%B8%20%C2%B7%20%E5%86%85%E6%A0%B8%E7%A7%BB%E6%A4%8D&descAlign=center&descSize=18">
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=wave&color=0%3A5B21B6%2C50%3A4338CA%2C100%3A0E7490&height=240&text=Ch1rpys&fontSize=64&fontColor=ffffff&animation=fadeIn&desc=AI%20%C2%B7%20%E9%9F%B3%E6%B8%B8%20%C2%B7%20%E5%86%85%E6%A0%B8%E7%A7%BB%E6%A4%8D&descAlign=center&descSize=18">
+    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=wave&color=0%3AC4B5FD%2C50%3A93C5FD%2C100%3A67E8F9&height=240&text=Ch1rpys&fontSize=64&fontColor=312E81&animation=fadeIn&desc=AI%20%C2%B7%20%E9%9F%B3%E6%B8%B8%20%C2%B7%20%E5%86%85%E6%A0%B8%E7%A7%BB%E6%A4%8D&descAlign=center&descSize=18">
+    <img alt="Ch1rpys" src="https://capsule-render.vercel.app/api?type=wave&color=0%3AC4B5FD%2C50%3A93C5FD%2C100%3A67E8F9&height=240&text=Ch1rpys&fontSize=64&fontColor=312E81&animation=fadeIn&desc=AI%20%C2%B7%20%E9%9F%B3%E6%B8%B8%20%C2%B7%20%E5%86%85%E6%A0%B8%E7%A7%BB%E6%A4%8D&descAlign=center&descSize=18">
   </picture>
 </p>
 
@@ -134,7 +134,7 @@
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:5B21B6,50:4338CA,100:0E7490&height=90&text=Thanks+for+visiting&fontSize=28&fontColor=ffffff&animation=fadeIn" alt="Thanks for visiting"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0%3A5B21B6%2C50%3A4338CA%2C100%3A0E7490&height=90&text=Thanks+for+visiting&fontSize=28&fontColor=ffffff&animation=fadeIn" alt="Thanks for visiting"/>
 </p>
 
 <p align="center">

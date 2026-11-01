@@ -16,10 +16,16 @@ def q(s: str, safe: str = "") -> str:
 # ---------------------------------------------------------------- capsule ----
 def capsule(color: str, text_color: str, desc: str, text: str = "Ch1rpys",
             height: int = 240, size: int = 64, kind: str = "wave") -> str:
+    # GitHub parses a <source srcset> as a comma-separated list of image
+    # candidates, so a literal comma anywhere in the query string truncates the
+    # URL at that point. Percent-encode every comma (and colon) to keep the
+    # gradient intact.
+    stops = "%2C".join(q(f"{k}:{v}") for k, v in
+                       (("0", color[0]), ("50", color[1]), ("100", color[2])))
     return (
         "https://capsule-render.vercel.app/api"
         f"?type={kind}"
-        f"&color=0:{color[0]},50:{color[1]},100:{color[2]}"
+        f"&color={stops}"
         f"&height={height}"
         f"&text={q(text)}"
         f"&fontSize={size}"
@@ -36,8 +42,9 @@ HERO_DARK = capsule(("5B21B6", "4338CA", "0E7490"), "ffffff",
 HERO_LIGHT = capsule(("C4B5FD", "93C5FD", "67E8F9"), "312E81",
                      "AI · 音游 · 内核移植")
 FOOTER = ("https://capsule-render.vercel.app/api?type=rect"
-          "&color=0:5B21B6,50:4338CA,100:0E7490"
-          "&height=90&text=Thanks+for+visiting"
+          "&color=" + "%2C".join(q(f"{k}:{v}") for k, v in
+                                (("0", "5B21B6"), ("50", "4338CA"), ("100", "0E7490")))
+          + "&height=90&text=Thanks+for+visiting"
           "&fontSize=28&fontColor=ffffff&animation=fadeIn")
 
 # ----------------------------------------------------------------- typing ----
@@ -266,6 +273,14 @@ README = f"""<p align="center">
 
 if __name__ == "__main__":
     import pathlib
+    import re
+
+    # Guard: a literal comma in a <source srcset> makes GitHub truncate the URL
+    # at the comma (it parses srcset as a comma-separated candidate list).
+    for srcset in re.findall(r"<source[^>]*srcset=\"([^\"]+)\"", README):
+        if "," in srcset:
+            raise SystemExit(f"literal comma in srcset, GitHub will truncate it:\n{srcset}")
+
     out = pathlib.Path(__file__).with_name("README.md")
     out.write_text(README, encoding="utf-8")
     print(f"wrote {out} ({len(README)} chars)")
