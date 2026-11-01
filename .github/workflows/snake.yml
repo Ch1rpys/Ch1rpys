@@ -27,9 +27,9 @@ jobs:
       - name: Push to output branch
         run: |
           cd dist
+          git init -q -b output
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git init -q -b output
           git add -A
           git commit -q -m "🐍 update snake animation"
           git push -q -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output
