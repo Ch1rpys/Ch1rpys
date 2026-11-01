@@ -106,32 +106,34 @@ def badge(label: str, color: str, logo: str = "") -> str:
 
 
 ROW_1 = [
-    badge("TypeScript-5.9", "3178C6", "typescript"),
-    badge("Python-3.12", "3776AB", "python"),
-    badge("C#-12.0", "68217A", "dotnet"),
-    badge("Unity", "222C37", "unity"),
-    badge("Swift-6", "F05138", "swift"),
-    badge("Linux Kernel", "FCC624", "linux"),
-    badge("Node.js-24", "339933", "nodedotjs"),
-    badge("React-19", "61DAFB", "react"),
+    (badge("TypeScript-5.9", "3178C6", "typescript"), "https://www.typescriptlang.org"),
+    (badge("Python-3.12", "3776AB", "python"), "https://www.python.org"),
+    (badge("C#-12.0", "68217A", "dotnet"), "https://learn.microsoft.com/dotnet/csharp"),
+    (badge("Unity", "222C37", "unity"), "https://unity.com"),
+    (badge("Swift-6", "F05138", "swift"), "https://www.swift.org"),
+    (badge("Linux Kernel", "FCC624", "linux"), "https://kernel.org"),
+    (badge("Node.js-24", "339933", "nodedotjs"), "https://nodejs.org"),
+    (badge("React-19", "61DAFB", "react"), "https://react.dev"),
 ]
 ROW_2 = [
-    badge("tRPC", "398CCB", "trpc"),
-    badge("Docker", "2496ED", "docker"),
-    badge("PostgreSQL", "4169E1", "postgresql"),
-    badge("Redis", "DC382D", "redis"),
-    badge("Nginx", "009639", "nginx"),
-    badge("Ollama", "111111", "ollama"),
-    badge("WeChaty", "07C160", "wechat"),
-    badge("PyTorch", "EE4C2C", "pytorch"),
+    (badge("tRPC", "398CCB", "trpc"), "https://trpc.io"),
+    (badge("Docker", "2496ED", "docker"), "https://www.docker.com"),
+    (badge("PostgreSQL", "4169E1", "postgresql"), "https://www.postgresql.org"),
+    (badge("Redis", "DC382D", "redis"), "https://redis.io"),
+    (badge("Nginx", "009639", "nginx"), "https://nginx.org"),
+    (badge("Ollama", "111111", "ollama"), "https://ollama.com"),
+    (badge("WeChaty", "07C160", "wechat"), "https://wechaty.js.org"),
+    (badge("PyTorch", "EE4C2C", "pytorch"), "https://pytorch.org"),
 ]
 
 
-def shield_row(urls: list[str]) -> str:
+def shield_row(pairs: list[tuple[str, str]]) -> str:
+    """Render a row of shields badges, each linking to its own project site."""
     return (
         '<p align="center">\n  '
-        + "\n  ".join(f'<a href="{u}"><img src="{u}" alt="badge"/></a>'
-                      for u in urls)
+        + "\n  ".join(f'<a href="{link}" target="_blank" rel="noopener">'
+                      f'<img src="{img}" alt="{img.split("/badge/")[1].split("?")[0]}"/></a>'
+                      for img, link in pairs)
         + "\n</p>"
     )
 

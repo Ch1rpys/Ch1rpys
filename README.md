@@ -40,24 +40,24 @@
 </p>
 
 <p align="center">
-  <a href="https://img.shields.io/badge/TypeScript--5.9-3178C6?style=flat-square&logo=typescript&logoColor=white"><img src="https://img.shields.io/badge/TypeScript--5.9-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="badge"/></a>
-  <a href="https://img.shields.io/badge/Python--3.12-3776AB?style=flat-square&logo=python&logoColor=white"><img src="https://img.shields.io/badge/Python--3.12-3776AB?style=flat-square&logo=python&logoColor=white" alt="badge"/></a>
-  <a href="https://img.shields.io/badge/C%23--12.0-68217A?style=flat-square&logo=dotnet&logoColor=white"><img src="https://img.shields.io/badge/C%23--12.0-68217A?style=flat-square&logo=dotnet&logoColor=white" alt="badge"/></a>
-  <a href="https://img.shields.io/badge/Unity-222C37?style=flat-square&logo=unity&logoColor=white"><img src="https://img.shields.io/badge/Unity-222C37?style=flat-square&logo=unity&logoColor=white" alt="badge"/></a>
-  <a href="https://img.shields.io/badge/Swift--6-F05138?style=flat-square&logo=swift&logoColor=white"><img src="https://img.shields.io/badge/Swift--6-F05138?style=flat-square&logo=swift&logoColor=white" alt="badge"/></a>
-  <a href="https://img.shields.io/badge/Linux%20Kernel-FCC624?style=flat-square&logo=linux&logoColor=white"><img src="https://img.shields.io/badge/Linux%20Kernel-FCC624?style=flat-square&logo=linux&logoColor=white" alt="badge"/></a>
-  <a href="https://img.shields.io/badge/Node.js--24-339933?style=flat-square&logo=nodedotjs&logoColor=white"><img src="https://img.shields.io/badge/Node.js--24-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="badge"/></a>
-  <a href="https://img.shields.io/badge/React--19-61DAFB?style=flat-square&logo=react&logoColor=white"><img src="https://img.shields.io/badge/React--19-61DAFB?style=flat-square&logo=react&logoColor=white" alt="badge"/></a>
+  <a href="https://www.typescriptlang.org" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/TypeScript--5.9-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript--5.9-3178C6"/></a>
+  <a href="https://www.python.org" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Python--3.12-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python--3.12-3776AB"/></a>
+  <a href="https://learn.microsoft.com/dotnet/csharp" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/C%23--12.0-68217A?style=flat-square&logo=dotnet&logoColor=white" alt="C%23--12.0-68217A"/></a>
+  <a href="https://unity.com" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Unity-222C37?style=flat-square&logo=unity&logoColor=white" alt="Unity-222C37"/></a>
+  <a href="https://www.swift.org" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Swift--6-F05138?style=flat-square&logo=swift&logoColor=white" alt="Swift--6-F05138"/></a>
+  <a href="https://kernel.org" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Linux%20Kernel-FCC624?style=flat-square&logo=linux&logoColor=white" alt="Linux%20Kernel-FCC624"/></a>
+  <a href="https://nodejs.org" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Node.js--24-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js--24-339933"/></a>
+  <a href="https://react.dev" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/React--19-61DAFB?style=flat-square&logo=react&logoColor=white" alt="React--19-61DAFB"/></a>
 </p>
 <p align="center">
-  <a href="https://img.shields.io/badge/tRPC-398CCB?style=flat-square&logo=trpc&logoColor=white"><img src="https://img.shields.io/badge/tRPC-398CCB?style=flat-square&logo=trpc&logoColor=white" alt="badge"/></a>
-  <a href="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="badge"/></a>
-  <a href="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="badge"/></a>
-  <a href="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"><img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="badge"/></a>
-  <a href="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"><img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="badge"/></a>
-  <a href="https://img.shields.io/badge/Ollama-111111?style=flat-square&logo=ollama&logoColor=white"><img src="https://img.shields.io/badge/Ollama-111111?style=flat-square&logo=ollama&logoColor=white" alt="badge"/></a>
-  <a href="https://img.shields.io/badge/WeChaty-07C160?style=flat-square&logo=wechat&logoColor=white"><img src="https://img.shields.io/badge/WeChaty-07C160?style=flat-square&logo=wechat&logoColor=white" alt="badge"/></a>
-  <a href="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="badge"/></a>
+  <a href="https://trpc.io" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/tRPC-398CCB?style=flat-square&logo=trpc&logoColor=white" alt="tRPC-398CCB"/></a>
+  <a href="https://www.docker.com" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker-2496ED"/></a>
+  <a href="https://www.postgresql.org" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL-4169E1"/></a>
+  <a href="https://redis.io" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis-DC382D"/></a>
+  <a href="https://nginx.org" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="Nginx-009639"/></a>
+  <a href="https://ollama.com" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/Ollama-111111?style=flat-square&logo=ollama&logoColor=white" alt="Ollama-111111"/></a>
+  <a href="https://wechaty.js.org" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/WeChaty-07C160?style=flat-square&logo=wechat&logoColor=white" alt="WeChaty-07C160"/></a>
+  <a href="https://pytorch.org" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch-EE4C2C"/></a>
 </p>
 
 ---
