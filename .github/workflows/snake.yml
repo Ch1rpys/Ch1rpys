@@ -16,3 +16,8 @@ jobs:
     steps:
       - name: Generate snake animation
         uses: Platane/snk@v3
+        with:
+          github_user_name: Ch1rpys
+          outputs: |
+            github-contribution-grid-snake.svg?palette=github
+            github-contribution-grid-snake-dark.svg?palette=github-dark
