@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Ch1rpys/Ch1rpys/main/assets/hero.svg" alt="Ch1rpys — AI 应用开发 / 音乐游戏 / Linux 内核移植"/>
+  <img src="https://raw.githubusercontent.com/Ch1rpys/Ch1rpys/main/assets/hero.svg?v=2" alt="Ch1rpys — AI 应用开发 / 音乐游戏 / Linux 内核移植"/>
 </p>
 
 <p align="center">
@@ -134,7 +134,7 @@
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Ch1rpys/Ch1rpys/main/assets/footer.svg" alt="Thanks for visiting"/>
+  <img src="https://raw.githubusercontent.com/Ch1rpys/Ch1rpys/main/assets/footer.svg?v=2" alt="Thanks for visiting"/>
 </p>
 
 <p align="center">
