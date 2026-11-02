@@ -175,7 +175,10 @@ def build_footer() -> str:
 
 
 if __name__ == "__main__":
-    base = pathlib.Path(__file__).with_name("assets")
+    # 目录名带版本号：raw.githubusercontent 的 CDN 按路径缓存且忽略查询参数，
+    # 改图时换一个目录才能确保访客拿到新文件。
+    base = pathlib.Path(__file__).with_name("assets") / "v2"
+    base.mkdir(parents=True, exist_ok=True)
     for name, svg in (("hero.svg", build()), ("footer.svg", build_footer())):
         path = base / name
         path.write_text(svg, encoding="utf-8")

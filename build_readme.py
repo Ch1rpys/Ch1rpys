@@ -17,12 +17,11 @@ def q(s: str, safe: str = "") -> str:
 # 横幅 SVG 直接存在本仓库里，不再依赖 capsule-render 这类第三方图床：
 # 那些服务一旦不可用，页面最显眼的位置就空一块。
 # assets/banner.svg（浅色）、banner-dark.svg（深色）、footer.svg
-# GitHub 的 camo 会按 URL 缓存图片，改了 SVG 内容但 URL 不变就会一直发旧图。
-# 所以带一个版本参数，改图时把 ASSET_V 加一即可破缓存。
-ASSET_V = "2"
-ASSETS = f"https://raw.githubusercontent.com/{U}/{U}/main/assets"
-HERO = f"{ASSETS}/hero.svg?v={ASSET_V}"
-FOOTER = f"{ASSETS}/footer.svg?v={ASSET_V}"
+# 资源放在 assets/<版本>/ 下。raw.githubusercontent 的 CDN 按路径缓存并忽略
+# 查询参数，所以改图必须换目录名（v2 → v3），只改内容会一直发旧图。
+ASSETS = f"https://raw.githubusercontent.com/{U}/{U}/main/assets/v2"
+HERO = f"{ASSETS}/hero.svg"
+FOOTER = f"{ASSETS}/footer.svg"
 
 # ----------------------------------------------------------------- typing ----
 TYPE_LINES = [
