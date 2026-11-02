@@ -143,7 +143,40 @@ def build() -> str:
 """
 
 
+def build_footer() -> str:
+    """A slim dark sign-off bar that matches the hero's palette."""
+    w, h = 1200, 96
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}"
+     viewBox="0 0 {w} {h}" role="img" aria-label="Thanks for visiting">
+  <defs>
+    <linearGradient id="neon2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="{CYAN}"/>
+      <stop offset="0.55" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="{VIOLET}"/>
+    </linearGradient>
+    <pattern id="grid2" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#16213a" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="{w}" height="{h}" fill="#080d18"/>
+  <rect width="{w}" height="{h}" fill="url(#grid2)" opacity="0.3"/>
+  <rect x="0" y="0" width="{w}" height="2" fill="url(#neon2)" opacity="0.85"/>
+  <rect x="0" y="{h - 1}" width="{w}" height="1" fill="#1e293b"/>
+
+  <text x="{w / 2 - 132}" y="{h / 2 + 9}" font-family="{MONO}" font-size="21"
+        fill="{CYAN}">❯</text>
+  <text x="{w / 2 - 96}" y="{h / 2 + 9}" font-family="{MONO}" font-size="21"
+        fill="#94a3b8">thanks for visiting</text>
+  <text x="{w / 2 + 152}" y="{h / 2 + 9}" font-family="{MONO}" font-size="21"
+        fill="#475569">_</text>
+</svg>
+"""
+
+
 if __name__ == "__main__":
-    out = pathlib.Path(__file__).with_name("assets") / "hero.svg"
-    out.write_text(build(), encoding="utf-8")
-    print(f"wrote {out} ({out.stat().st_size} bytes)")
+    base = pathlib.Path(__file__).with_name("assets")
+    for name, svg in (("hero.svg", build()), ("footer.svg", build_footer())):
+        path = base / name
+        path.write_text(svg, encoding="utf-8")
+        print(f"wrote {path} ({path.stat().st_size} bytes)")
