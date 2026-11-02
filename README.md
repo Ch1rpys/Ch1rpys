@@ -1,8 +1,8 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=wave&color=0%3A5B21B6%2C50%3A4338CA%2C100%3A0E7490&height=240&text=Ch1rpys&fontSize=64&fontColor=ffffff&animation=fadeIn&desc=AI%20%C2%B7%20%E9%9F%B3%E6%B8%B8%20%C2%B7%20%E5%86%85%E6%A0%B8%E7%A7%BB%E6%A4%8D&descAlign=center&descSize=18">
-    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=wave&color=0%3AC4B5FD%2C50%3A93C5FD%2C100%3A67E8F9&height=240&text=Ch1rpys&fontSize=64&fontColor=312E81&animation=fadeIn&desc=AI%20%C2%B7%20%E9%9F%B3%E6%B8%B8%20%C2%B7%20%E5%86%85%E6%A0%B8%E7%A7%BB%E6%A4%8D&descAlign=center&descSize=18">
-    <img alt="Ch1rpys" src="https://capsule-render.vercel.app/api?type=wave&color=0%3AC4B5FD%2C50%3A93C5FD%2C100%3A67E8F9&height=240&text=Ch1rpys&fontSize=64&fontColor=312E81&animation=fadeIn&desc=AI%20%C2%B7%20%E9%9F%B3%E6%B8%B8%20%C2%B7%20%E5%86%85%E6%A0%B8%E7%A7%BB%E6%A4%8D&descAlign=center&descSize=18">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ch1rpys/Ch1rpys/main/assets/banner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ch1rpys/Ch1rpys/main/assets/banner.svg">
+    <img alt="Ch1rpys" src="https://raw.githubusercontent.com/Ch1rpys/Ch1rpys/main/assets/banner.svg">
   </picture>
 </p>
 
@@ -113,7 +113,7 @@
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0%3A5B21B6%2C50%3A4338CA%2C100%3A0E7490&height=90&text=Thanks+for+visiting&fontSize=28&fontColor=ffffff&animation=fadeIn" alt="Thanks for visiting"/>
+  <img src="https://raw.githubusercontent.com/Ch1rpys/Ch1rpys/main/assets/footer.svg" alt="Thanks for visiting"/>
 </p>
 
 <p align="center">

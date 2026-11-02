@@ -13,39 +13,14 @@ def q(s: str, safe: str = "") -> str:
     return quote(s, safe=safe)
 
 
-# ---------------------------------------------------------------- capsule ----
-def capsule(color: str, text_color: str, desc: str, text: str = "Ch1rpys",
-            height: int = 240, size: int = 64, kind: str = "wave") -> str:
-    # GitHub parses a <source srcset> as a comma-separated list of image
-    # candidates, so a literal comma anywhere in the query string truncates the
-    # URL at that point. Percent-encode every comma (and colon) to keep the
-    # gradient intact.
-    stops = "%2C".join(q(f"{k}:{v}") for k, v in
-                       (("0", color[0]), ("50", color[1]), ("100", color[2])))
-    return (
-        "https://capsule-render.vercel.app/api"
-        f"?type={kind}"
-        f"&color={stops}"
-        f"&height={height}"
-        f"&text={q(text)}"
-        f"&fontSize={size}"
-        f"&fontColor={text_color}"
-        "&animation=fadeIn"
-        f"&desc={q(desc)}"
-        "&descAlign=center"
-        "&descSize=18"
-    )
-
-
-HERO_DARK = capsule(("5B21B6", "4338CA", "0E7490"), "ffffff",
-                    "AI · 音游 · 内核移植")
-HERO_LIGHT = capsule(("C4B5FD", "93C5FD", "67E8F9"), "312E81",
-                     "AI · 音游 · 内核移植")
-FOOTER = ("https://capsule-render.vercel.app/api?type=rect"
-          "&color=" + "%2C".join(q(f"{k}:{v}") for k, v in
-                                (("0", "5B21B6"), ("50", "4338CA"), ("100", "0E7490")))
-          + "&height=90&text=Thanks+for+visiting"
-          "&fontSize=28&fontColor=ffffff&animation=fadeIn")
+# ----------------------------------------------------------------- assets ----
+# 横幅 SVG 直接存在本仓库里，不再依赖 capsule-render 这类第三方图床：
+# 那些服务一旦不可用，页面最显眼的位置就空一块。
+# assets/banner.svg（浅色）、banner-dark.svg（深色）、footer.svg
+ASSETS = f"https://raw.githubusercontent.com/{U}/{U}/main/assets"
+HERO_LIGHT = f"{ASSETS}/banner.svg"
+HERO_DARK = f"{ASSETS}/banner-dark.svg"
+FOOTER = f"{ASSETS}/footer.svg"
 
 # ----------------------------------------------------------------- typing ----
 TYPE_LINES = [
