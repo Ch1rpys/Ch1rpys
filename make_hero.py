@@ -5,6 +5,7 @@ GitHub strips every colour/background style from README HTML, so the only way
 to get a dark, neon look is to author the banner as an SVG image and host it
 in this repo. Keeping the generator around makes the layout tweakable.
 """
+import math
 import pathlib
 
 W, H = 1200, 420
@@ -17,51 +18,32 @@ VIOLET = "#a855f7"
 TEXT = "#e2e8f0"
 DIM = "#64748b"
 
-# --------------------------------------------------------------- piano strip --
-# 14 white keys starting at C. Black keys follow the usual 2-3 grouping.
-WHITE_PITCHES = "CDEFGAB CDEFGAB".replace(" ", "")
-WHITE_W = 31
-WHITE_H = 118
-BLACK_W = 18
-BLACK_H = 72
-
-
-def piano_svg(x0: int, y0: int, lit: int = 3) -> str:
-    """A keyboard drawn the way a real one reads: white keys sit flush
-    together (only hairline separators), black keys overlap them."""
+# ------------------------------------------------------------- spectrum bars --
+# 频谱条：对应音游这条主线，不牵扯任何还不��熟的项目。
+def spectrum_svg(x0: int, y0: int, w: int, h: int, bars: int = 34) -> str:
+    bw = w / bars
     parts = []
-    # white keys: flush, separated by a 1px darker line
-    for i in range(len(WHITE_PITCHES)):
-        x = x0 + i * WHITE_W
+    for i in range(bars):
+        # 由几个不同频率的正弦叠加，得到有起伏但不杂乱的高度
+        t = i / bars
+        v = (0.30 + 0.28 * math.sin(t * 9.1 + 0.6)
+             + 0.20 * math.sin(t * 21.7 + 1.9)
+             + 0.12 * math.sin(t * 41.3 + 0.3))
+        v = max(0.10, min(1.0, v))
+        bh = h * v
+        x = x0 + i * bw
+        op = 0.32 + 0.55 * v
         parts.append(
-            f'<rect x="{x}" y="{y0}" width="{WHITE_W}" height="{WHITE_H}" '
-            f'fill="#e8eefc"/>'
+            f'<rect x="{x:.1f}" y="{y0 + h - bh:.1f}" width="{bw - 3:.1f}" '
+            f'height="{bh:.1f}" rx="1.5" fill="url(#neon)" opacity="{op:.2f}"/>'
         )
-        parts.append(
-            f'<rect x="{x + WHITE_W - 1}" y="{y0}" width="1" height="{WHITE_H}" '
-            f'fill="#94a3b8" opacity="0.55"/>'
-        )
-    # black keys: overlapping the boundary between two white keys
-    for i, p in enumerate(WHITE_PITCHES):
-        if p in "CDFGA":
-            cx = x0 + (i + 1) * WHITE_W - BLACK_W / 2
-            parts.append(
-                f'<rect x="{cx:.1f}" y="{y0}" width="{BLACK_W}" height="{BLACK_H}" '
-                f'rx="2" fill="#080d18" stroke="#1e293b" stroke-width="1"/>'
-            )
-    # one key lit up in neon
-    lx = x0 + lit * WHITE_W
-    parts.append(
-        f'<rect x="{lx}" y="{y0}" width="{WHITE_W - 1}" height="{WHITE_H}" '
-        f'fill="url(#neon)" opacity="0.9"/>'
-    )
     return "".join(parts)
 
 
 def build() -> str:
     return f"""<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
      width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img"
-     aria-label="Ch1rpys — AI 应用开发 / 音乐游戏 / Linux 内核移植">
+     aria-label="Ch1rpys — AI 应用开发 / 音乐游戏">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0.35" y2="1">
       <stop offset="0" stop-color="#0c1222"/>
@@ -127,13 +109,13 @@ def build() -> str:
   <rect x="70" y="256" width="248" height="3" fill="url(#neon)"/>
 
   <!-- tagline -->
-  <text x="70" y="300" font-family="{CJK}" font-size="25" fill="#cbd5e1">AI 应用开发 · 音乐游戏 · Linux 内核移植</text>
+  <text x="70" y="300" font-family="{CJK}" font-size="25" fill="#cbd5e1">AI 应用开发 · 音乐游戏制作</text>
 
   <!-- footer line -->
   <text x="70" y="352" font-family="{MONO}" font-size="16" fill="#475569">10minstudio · IPOL-Studio · piae-mentes-project</text>
 
-  <!-- piano strip -->
-  {piano_svg(700, 250, lit=3)}
+  <!-- spectrum bars -->
+  {spectrum_svg(716, 236, 400, 130)}
 
   <!-- scanlines -->
   <g opacity="0.028">
@@ -177,7 +159,7 @@ def build_footer() -> str:
 if __name__ == "__main__":
     # 目录名带版本号：raw.githubusercontent 的 CDN 按路径缓存且忽略查询参数，
     # 改图时换一个目录才能确保访客拿到新文件。
-    base = pathlib.Path(__file__).with_name("assets") / "v2"
+    base = pathlib.Path(__file__).with_name("assets") / "v3"
     base.mkdir(parents=True, exist_ok=True)
     for name, svg in (("hero.svg", build()), ("footer.svg", build_footer())):
         path = base / name

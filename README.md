@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Ch1rpys/Ch1rpys/main/assets/v2/hero.svg" alt="Ch1rpys — AI 应用开发 / 音乐游戏 / Linux 内核移植"/>
+  <img src="https://raw.githubusercontent.com/Ch1rpys/Ch1rpys/main/assets/v3/hero.svg" alt="Ch1rpys — AI 应用开发 / 音乐游戏"/>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1500&color=22D3EE&center=true&vCenter=true&width=700&lines=%24%20AI%20%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E8%80%85%20%2F%20%E9%9F%B3%E4%B9%90%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C%E8%80%85;%24%20%E9%9F%B3%E6%B8%B8%E3%80%8A%E6%BA%AF%20Resux%E3%80%8B%E6%A0%B8%E5%BF%83%E5%BC%80%E5%8F%91%20%C2%B7%2010minstudio;%24%20%E5%BC%80%E6%BA%90%20AI%20%E6%95%B0%E5%AD%97%E5%88%86%E8%BA%AB%20Mirrai%20%E2%80%94%20%E8%AE%A9%20TA%20%E4%B8%80%E7%9B%B4%E9%83%BD%E5%9C%A8;%24%20Linux%20%E5%86%85%E6%A0%B8%E7%A7%BB%E6%A4%8D%20%E2%80%94%20%E5%B0%8F%E7%B1%B3%E5%B9%B3%E6%9D%BF%208%20Pro;%24%20Building%20things%20that%20sing%2C%20and%20kernels%20that%20boot.&repeat=true">
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1500&color=7C3AED&center=true&vCenter=true&width=700&lines=%24%20AI%20%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E8%80%85%20%2F%20%E9%9F%B3%E4%B9%90%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C%E8%80%85;%24%20%E9%9F%B3%E6%B8%B8%E3%80%8A%E6%BA%AF%20Resux%E3%80%8B%E6%A0%B8%E5%BF%83%E5%BC%80%E5%8F%91%20%C2%B7%2010minstudio;%24%20%E5%BC%80%E6%BA%90%20AI%20%E6%95%B0%E5%AD%97%E5%88%86%E8%BA%AB%20Mirrai%20%E2%80%94%20%E8%AE%A9%20TA%20%E4%B8%80%E7%9B%B4%E9%83%BD%E5%9C%A8;%24%20Linux%20%E5%86%85%E6%A0%B8%E7%A7%BB%E6%A4%8D%20%E2%80%94%20%E5%B0%8F%E7%B1%B3%E5%B9%B3%E6%9D%BF%208%20Pro;%24%20Building%20things%20that%20sing%2C%20and%20kernels%20that%20boot.&repeat=true">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1500&color=7C3AED&center=true&vCenter=true&width=700&lines=%24%20AI%20%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E8%80%85%20%2F%20%E9%9F%B3%E4%B9%90%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C%E8%80%85;%24%20%E9%9F%B3%E6%B8%B8%E3%80%8A%E6%BA%AF%20Resux%E3%80%8B%E6%A0%B8%E5%BF%83%E5%BC%80%E5%8F%91%20%C2%B7%2010minstudio;%24%20%E5%BC%80%E6%BA%90%20AI%20%E6%95%B0%E5%AD%97%E5%88%86%E8%BA%AB%20Mirrai%20%E2%80%94%20%E8%AE%A9%20TA%20%E4%B8%80%E7%9B%B4%E9%83%BD%E5%9C%A8;%24%20Linux%20%E5%86%85%E6%A0%B8%E7%A7%BB%E6%A4%8D%20%E2%80%94%20%E5%B0%8F%E7%B1%B3%E5%B9%B3%E6%9D%BF%208%20Pro;%24%20Building%20things%20that%20sing%2C%20and%20kernels%20that%20boot.&repeat=true" alt="Ch1rpy 的自我介绍" width="660"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1500&color=22D3EE&center=true&vCenter=true&width=700&lines=%24%20AI%20%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E8%80%85%20%2F%20%E9%9F%B3%E4%B9%90%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C%E8%80%85;%24%20%E9%9F%B3%E6%B8%B8%E3%80%8A%E6%BA%AF%20Resux%E3%80%8B%E6%A0%B8%E5%BF%83%E5%BC%80%E5%8F%91%20%C2%B7%2010minstudio;%24%20%E5%BC%80%E6%BA%90%20AI%20%E6%95%B0%E5%AD%97%E5%88%86%E8%BA%AB%20Mirrai%20%E2%80%94%20%E8%AE%A9%20TA%20%E4%B8%80%E7%9B%B4%E9%83%BD%E5%9C%A8;%24%20%E6%AD%A3%E5%9C%A8%E5%81%9A%E6%9B%B4%E5%A4%9A%20AI%20%E5%BA%94%E7%94%A8%20%C2%B7%20%E4%B9%9F%E5%9C%A8%E7%90%A2%E7%A3%A8%E9%9F%B3%E6%B8%B8%E6%89%8B%E6%84%9F;%24%20Building%20rhythm%20games%20and%20AI%20companions.&repeat=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1500&color=7C3AED&center=true&vCenter=true&width=700&lines=%24%20AI%20%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E8%80%85%20%2F%20%E9%9F%B3%E4%B9%90%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C%E8%80%85;%24%20%E9%9F%B3%E6%B8%B8%E3%80%8A%E6%BA%AF%20Resux%E3%80%8B%E6%A0%B8%E5%BF%83%E5%BC%80%E5%8F%91%20%C2%B7%2010minstudio;%24%20%E5%BC%80%E6%BA%90%20AI%20%E6%95%B0%E5%AD%97%E5%88%86%E8%BA%AB%20Mirrai%20%E2%80%94%20%E8%AE%A9%20TA%20%E4%B8%80%E7%9B%B4%E9%83%BD%E5%9C%A8;%24%20%E6%AD%A3%E5%9C%A8%E5%81%9A%E6%9B%B4%E5%A4%9A%20AI%20%E5%BA%94%E7%94%A8%20%C2%B7%20%E4%B9%9F%E5%9C%A8%E7%90%A2%E7%A3%A8%E9%9F%B3%E6%B8%B8%E6%89%8B%E6%84%9F;%24%20Building%20rhythm%20games%20and%20AI%20companions.&repeat=true">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1500&color=7C3AED&center=true&vCenter=true&width=700&lines=%24%20AI%20%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E8%80%85%20%2F%20%E9%9F%B3%E4%B9%90%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C%E8%80%85;%24%20%E9%9F%B3%E6%B8%B8%E3%80%8A%E6%BA%AF%20Resux%E3%80%8B%E6%A0%B8%E5%BF%83%E5%BC%80%E5%8F%91%20%C2%B7%2010minstudio;%24%20%E5%BC%80%E6%BA%90%20AI%20%E6%95%B0%E5%AD%97%E5%88%86%E8%BA%AB%20Mirrai%20%E2%80%94%20%E8%AE%A9%20TA%20%E4%B8%80%E7%9B%B4%E9%83%BD%E5%9C%A8;%24%20%E6%AD%A3%E5%9C%A8%E5%81%9A%E6%9B%B4%E5%A4%9A%20AI%20%E5%BA%94%E7%94%A8%20%C2%B7%20%E4%B9%9F%E5%9C%A8%E7%90%A2%E7%A3%A8%E9%9F%B3%E6%B8%B8%E6%89%8B%E6%84%9F;%24%20Building%20rhythm%20games%20and%20AI%20companions.&repeat=true" alt="Ch1rpy 的自我介绍" width="660"/>
   </picture>
 </p>
 
@@ -24,7 +24,7 @@
 
 - 🤖 **AI 应用开发** — 用 TypeScript / Python 把大模型塞进真正能用的产品里
 - 🎮 **音乐游戏** — 10minstudio 音游《溯 Resux》核心开发；参与 CyanStars 中文虚拟歌手同人音游企划
-- 🐧 **内核移植** — 为小米平板 8 Pro 移植 Linux：主线内核补丁、驱动适配、Ubuntu 桌面集成
+- 🐧 **内核移植** — 最近开始给小米平板 8 Pro 试水 Linux 移植，才刚上手
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=typescript,python,cs,linux,unity,react,figma" alt="Tech Stack"/>
@@ -53,14 +53,6 @@
 **[Resux](https://github.com/piae-mentes-project)** · **[CyanStars](https://github.com/IPOL-Studio/CyanStars)** ★52 · **[音游文档](https://ipol-studio.github.io/CyanStars_Docs/)**
 
 ```text
-❯ linux-sm8750-piano — 内核移植
-  小米平板 8 Pro 的 Linux 移植：主线 7.2.y 内核树 + 驱动移植 + Ubuntu 桌面集成
-  C · Linux Kernel
-```
-
-**[linux-sm8750-piano](https://github.com/Ch1rpys/linux-sm8750-piano)** · **[xiaomipad-8pro-mainline](https://github.com/Ch1rpys/xiaomipad-8pro-mainline)**
-
-```text
 ❯ pdfcopy — 顺手造轮子
   PDF 划线取词：跨行跨页不丢字、不带页码和 ???；纯离线、不吃 GPU
   Python · tagged-pdf · ToUnicode
@@ -68,6 +60,8 @@
 
 **[pdfcopy](https://github.com/Ch1rpys/pdfcopy)** ★3 · [在线体验](https://ch1rpy2613--pdfcopy.modal.run)
 
+> **最近在折腾**：[linux-sm8750-piano](https://github.com/Ch1rpys/linux-sm8750-piano) —— 给小米平板 8 Pro 试水 Linux 移植，刚起步，还在摸索。
+>
 > 还有一些在做但还没开源的东西 —— AI 运维诊断平台、私有化教育云服务之类。等它们成熟了会陆续放出来。
 
 ---
@@ -129,12 +123,12 @@
 
 **[邮件](mailto:ch1rpy@163.com)** · **[博客](https://ch1rpy.com)** · **[CyanStars 文档](https://ipol-studio.github.io/CyanStars_Docs/)**
 
-技术讨论、谱面合作、内核移植互助、或者单纯来打个招呼都行。
+技术讨论、谱面合作、内核移植交流、或者单纯来打个招呼都行。
 
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Ch1rpys/Ch1rpys/main/assets/v2/footer.svg" alt="Thanks for visiting"/>
+  <img src="https://raw.githubusercontent.com/Ch1rpys/Ch1rpys/main/assets/v3/footer.svg" alt="Thanks for visiting"/>
 </p>
 
 <p align="center">

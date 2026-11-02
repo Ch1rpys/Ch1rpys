@@ -19,7 +19,7 @@ def q(s: str, safe: str = "") -> str:
 # assets/banner.svg（浅色）、banner-dark.svg（深色）、footer.svg
 # 资源放在 assets/<版本>/ 下。raw.githubusercontent 的 CDN 按路径缓存并忽略
 # 查询参数，所以改图必须换目录名（v2 → v3），只改内容会一直发旧图。
-ASSETS = f"https://raw.githubusercontent.com/{U}/{U}/main/assets/v2"
+ASSETS = f"https://raw.githubusercontent.com/{U}/{U}/main/assets/v3"
 HERO = f"{ASSETS}/hero.svg"
 FOOTER = f"{ASSETS}/footer.svg"
 
@@ -28,8 +28,8 @@ TYPE_LINES = [
     "$ AI 应用开发者 / 音乐游戏制作者",
     "$ 音游《溯 Resux》核心开发 · 10minstudio",
     "$ 开源 AI 数字分身 Mirrai — 让 TA 一直都在",
-    "$ Linux 内核移植 — 小米平板 8 Pro",
-    "$ Building things that sing, and kernels that boot.",
+    "$ 正在做更多 AI 应用 · 也在琢磨音游手感",
+    "$ Building rhythm games and AI companions.",
 ]
 def typing_svg(color: str) -> str:
     return (
@@ -79,7 +79,7 @@ SKILL_ICONS = (
 
 
 README = f"""<p align="center">
-  <img src="{HERO}" alt="Ch1rpys — AI 应用开发 / 音乐游戏 / Linux 内核移植"/>
+  <img src="{HERO}" alt="Ch1rpys — AI 应用开发 / 音乐游戏"/>
 </p>
 
 <p align="center">
@@ -104,7 +104,7 @@ README = f"""<p align="center">
 
 - 🤖 **AI 应用开发** — 用 TypeScript / Python 把大模型塞进真正能用的产品里
 - 🎮 **音乐游戏** — 10minstudio 音游《溯 Resux》核心开发；参与 CyanStars 中文虚拟歌手同人音游企划
-- 🐧 **内核移植** — 为小米平板 8 Pro 移植 Linux：主线内核补丁、驱动适配、Ubuntu 桌面集成
+- 🐧 **内核移植** — 最近开始给小米平板 8 Pro 试水 Linux 移植，才刚上手
 
 <p align="center">
   <img src="{SKILL_ICONS}" alt="Tech Stack"/>
@@ -133,14 +133,6 @@ README = f"""<p align="center">
 **[Resux](https://github.com/piae-mentes-project)** · **[CyanStars](https://github.com/IPOL-Studio/CyanStars)** ★52 · **[音游文档](https://ipol-studio.github.io/CyanStars_Docs/)**
 
 ```text
-❯ linux-sm8750-piano — 内核移植
-  小米平板 8 Pro 的 Linux 移植：主线 7.2.y 内核树 + 驱动移植 + Ubuntu 桌面集成
-  C · Linux Kernel
-```
-
-**[linux-sm8750-piano](https://github.com/{U}/linux-sm8750-piano)** · **[xiaomipad-8pro-mainline](https://github.com/{U}/xiaomipad-8pro-mainline)**
-
-```text
 ❯ pdfcopy — 顺手造轮子
   PDF 划线取词：跨行跨页不丢字、不带页码和 ???；纯离线、不吃 GPU
   Python · tagged-pdf · ToUnicode
@@ -148,6 +140,8 @@ README = f"""<p align="center">
 
 **[pdfcopy](https://github.com/{U}/pdfcopy)** ★3 · [在线体验](https://ch1rpy2613--pdfcopy.modal.run)
 
+> **最近在折腾**：[linux-sm8750-piano](https://github.com/{U}/linux-sm8750-piano) —— 给小米平板 8 Pro 试水 Linux 移植，刚起步，还在摸索。
+>
 > 还有一些在做但还没开源的东西 —— AI 运维诊断平台、私有化教育云服务之类。等它们成熟了会陆续放出来。
 
 ---
@@ -209,7 +203,7 @@ README = f"""<p align="center">
 
 **[邮件](mailto:ch1rpy@163.com)** · **[博客](https://ch1rpy.com)** · **[CyanStars 文档](https://ipol-studio.github.io/CyanStars_Docs/)**
 
-技术讨论、谱面合作、内核移植互助、或者单纯来打个招呼都行。
+技术讨论、谱面合作、内核移植交流、或者单纯来打个招呼都行。
 
 ---
 
