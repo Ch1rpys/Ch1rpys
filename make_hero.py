@@ -43,7 +43,7 @@ def spectrum_svg(x0: int, y0: int, w: int, h: int, bars: int = 34) -> str:
 def build() -> str:
     return f"""<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
      width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img"
-     aria-label="Ch1rpys — AI 应用开发 / 音乐游戏">
+     aria-label="Ch1rpys — 独立开发者 / 音乐游戏">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0.35" y2="1">
       <stop offset="0" stop-color="#0c1222"/>
@@ -109,7 +109,7 @@ def build() -> str:
   <rect x="70" y="256" width="248" height="3" fill="url(#neon)"/>
 
   <!-- tagline -->
-  <text x="70" y="300" font-family="{CJK}" font-size="25" fill="#cbd5e1">AI 应用开发 · 音乐游戏制作</text>
+  <text x="70" y="300" font-family="{CJK}" font-size="25" fill="#cbd5e1">独立开发者 · 音乐游戏制作</text>
 
   <!-- footer line -->
   <text x="70" y="352" font-family="{MONO}" font-size="16" fill="#475569">10minstudio · IPOL-Studio · piae-mentes-project</text>
@@ -159,7 +159,7 @@ def build_footer() -> str:
 if __name__ == "__main__":
     # 目录名带版本号：raw.githubusercontent 的 CDN 按路径缓存且忽略查询参数，
     # 改图时换一个目录才能确保访客拿到新文件。
-    base = pathlib.Path(__file__).with_name("assets") / "v3"
+    base = pathlib.Path(__file__).with_name("assets") / "v4"
     base.mkdir(parents=True, exist_ok=True)
     for name, svg in (("hero.svg", build()), ("footer.svg", build_footer())):
         path = base / name

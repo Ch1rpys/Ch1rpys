@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Ch1rpys/Ch1rpys/main/assets/v3/hero.svg" alt="Ch1rpys — AI 应用开发 / 音乐游戏"/>
+  <img src="https://raw.githubusercontent.com/Ch1rpys/Ch1rpys/main/assets/v4/hero.svg" alt="Ch1rpys — 独立开发者 / 音乐游戏"/>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1500&color=22D3EE&center=true&vCenter=true&width=700&lines=%24%20AI%20%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E8%80%85%20%2F%20%E9%9F%B3%E4%B9%90%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C%E8%80%85;%24%20%E9%9F%B3%E6%B8%B8%E3%80%8A%E6%BA%AF%20Resux%E3%80%8B%E6%A0%B8%E5%BF%83%E5%BC%80%E5%8F%91%20%C2%B7%2010minstudio;%24%20%E5%BC%80%E6%BA%90%20AI%20%E6%95%B0%E5%AD%97%E5%88%86%E8%BA%AB%20Mirrai%20%E2%80%94%20%E8%AE%A9%20TA%20%E4%B8%80%E7%9B%B4%E9%83%BD%E5%9C%A8;%24%20%E6%AD%A3%E5%9C%A8%E5%81%9A%E6%9B%B4%E5%A4%9A%20AI%20%E5%BA%94%E7%94%A8%20%C2%B7%20%E4%B9%9F%E5%9C%A8%E7%90%A2%E7%A3%A8%E9%9F%B3%E6%B8%B8%E6%89%8B%E6%84%9F;%24%20Building%20rhythm%20games%20and%20AI%20companions.&repeat=true">
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1500&color=7C3AED&center=true&vCenter=true&width=700&lines=%24%20AI%20%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E8%80%85%20%2F%20%E9%9F%B3%E4%B9%90%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C%E8%80%85;%24%20%E9%9F%B3%E6%B8%B8%E3%80%8A%E6%BA%AF%20Resux%E3%80%8B%E6%A0%B8%E5%BF%83%E5%BC%80%E5%8F%91%20%C2%B7%2010minstudio;%24%20%E5%BC%80%E6%BA%90%20AI%20%E6%95%B0%E5%AD%97%E5%88%86%E8%BA%AB%20Mirrai%20%E2%80%94%20%E8%AE%A9%20TA%20%E4%B8%80%E7%9B%B4%E9%83%BD%E5%9C%A8;%24%20%E6%AD%A3%E5%9C%A8%E5%81%9A%E6%9B%B4%E5%A4%9A%20AI%20%E5%BA%94%E7%94%A8%20%C2%B7%20%E4%B9%9F%E5%9C%A8%E7%90%A2%E7%A3%A8%E9%9F%B3%E6%B8%B8%E6%89%8B%E6%84%9F;%24%20Building%20rhythm%20games%20and%20AI%20companions.&repeat=true">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1500&color=7C3AED&center=true&vCenter=true&width=700&lines=%24%20AI%20%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E8%80%85%20%2F%20%E9%9F%B3%E4%B9%90%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C%E8%80%85;%24%20%E9%9F%B3%E6%B8%B8%E3%80%8A%E6%BA%AF%20Resux%E3%80%8B%E6%A0%B8%E5%BF%83%E5%BC%80%E5%8F%91%20%C2%B7%2010minstudio;%24%20%E5%BC%80%E6%BA%90%20AI%20%E6%95%B0%E5%AD%97%E5%88%86%E8%BA%AB%20Mirrai%20%E2%80%94%20%E8%AE%A9%20TA%20%E4%B8%80%E7%9B%B4%E9%83%BD%E5%9C%A8;%24%20%E6%AD%A3%E5%9C%A8%E5%81%9A%E6%9B%B4%E5%A4%9A%20AI%20%E5%BA%94%E7%94%A8%20%C2%B7%20%E4%B9%9F%E5%9C%A8%E7%90%A2%E7%A3%A8%E9%9F%B3%E6%B8%B8%E6%89%8B%E6%84%9F;%24%20Building%20rhythm%20games%20and%20AI%20companions.&repeat=true" alt="Ch1rpy 的自我介绍" width="660"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1500&color=22D3EE&center=true&vCenter=true&width=700&lines=%24%20%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91%E8%80%85%20%2F%20%E9%9F%B3%E4%B9%90%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C%E8%80%85;%24%20%E9%9F%B3%E6%B8%B8%E3%80%8A%E6%BA%AF%20Resux%E3%80%8B%E6%A0%B8%E5%BF%83%E5%BC%80%E5%8F%91%20%C2%B7%2010minstudio;%24%20%E5%BC%80%E6%BA%90%20AI%20%E6%95%B0%E5%AD%97%E5%88%86%E8%BA%AB%20Mirrai%20%E2%80%94%20%E8%AE%A9%20TA%20%E4%B8%80%E7%9B%B4%E9%83%BD%E5%9C%A8;%24%20%E6%AD%A3%E5%9C%A8%E5%81%9A%E6%9B%B4%E5%A4%9A%20AI%20%E5%BA%94%E7%94%A8%20%C2%B7%20%E4%B9%9F%E5%9C%A8%E7%90%A2%E7%A3%A8%E9%9F%B3%E6%B8%B8%E6%89%8B%E6%84%9F;%24%20Building%20rhythm%20games%20and%20AI%20companions.&repeat=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1500&color=7C3AED&center=true&vCenter=true&width=700&lines=%24%20%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91%E8%80%85%20%2F%20%E9%9F%B3%E4%B9%90%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C%E8%80%85;%24%20%E9%9F%B3%E6%B8%B8%E3%80%8A%E6%BA%AF%20Resux%E3%80%8B%E6%A0%B8%E5%BF%83%E5%BC%80%E5%8F%91%20%C2%B7%2010minstudio;%24%20%E5%BC%80%E6%BA%90%20AI%20%E6%95%B0%E5%AD%97%E5%88%86%E8%BA%AB%20Mirrai%20%E2%80%94%20%E8%AE%A9%20TA%20%E4%B8%80%E7%9B%B4%E9%83%BD%E5%9C%A8;%24%20%E6%AD%A3%E5%9C%A8%E5%81%9A%E6%9B%B4%E5%A4%9A%20AI%20%E5%BA%94%E7%94%A8%20%C2%B7%20%E4%B9%9F%E5%9C%A8%E7%90%A2%E7%A3%A8%E9%9F%B3%E6%B8%B8%E6%89%8B%E6%84%9F;%24%20Building%20rhythm%20games%20and%20AI%20companions.&repeat=true">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1500&color=7C3AED&center=true&vCenter=true&width=700&lines=%24%20%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91%E8%80%85%20%2F%20%E9%9F%B3%E4%B9%90%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C%E8%80%85;%24%20%E9%9F%B3%E6%B8%B8%E3%80%8A%E6%BA%AF%20Resux%E3%80%8B%E6%A0%B8%E5%BF%83%E5%BC%80%E5%8F%91%20%C2%B7%2010minstudio;%24%20%E5%BC%80%E6%BA%90%20AI%20%E6%95%B0%E5%AD%97%E5%88%86%E8%BA%AB%20Mirrai%20%E2%80%94%20%E8%AE%A9%20TA%20%E4%B8%80%E7%9B%B4%E9%83%BD%E5%9C%A8;%24%20%E6%AD%A3%E5%9C%A8%E5%81%9A%E6%9B%B4%E5%A4%9A%20AI%20%E5%BA%94%E7%94%A8%20%C2%B7%20%E4%B9%9F%E5%9C%A8%E7%90%A2%E7%A3%A8%E9%9F%B3%E6%B8%B8%E6%89%8B%E6%84%9F;%24%20Building%20rhythm%20games%20and%20AI%20companions.&repeat=true" alt="Ch1rpy 的自我介绍" width="660"/>
   </picture>
 </p>
 
@@ -22,7 +22,7 @@
 
 ## 👋 关于我 · About
 
-- 🤖 **AI 应用开发** — 用 TypeScript / Python 把大模型塞进真正能用的产品里
+- 💻 **独立开发者** — 一个人从零做到上线；主力项目是开源 AI 数字分身 [Mirrai](https://github.com/Ch1rpys/Mirrai)
 - 🎮 **音乐游戏** — 10minstudio 音游《溯 Resux》核心开发；参与 CyanStars 中文虚拟歌手同人音游企划
 - 🐧 **内核移植** — 最近开始给小米平板 8 Pro 试水 Linux 移植，才刚上手
 
@@ -128,7 +128,7 @@
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Ch1rpys/Ch1rpys/main/assets/v3/footer.svg" alt="Thanks for visiting"/>
+  <img src="https://raw.githubusercontent.com/Ch1rpys/Ch1rpys/main/assets/v4/footer.svg" alt="Thanks for visiting"/>
 </p>
 
 <p align="center">

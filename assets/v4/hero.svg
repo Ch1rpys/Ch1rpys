@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
      width="1200" height="420" viewBox="0 0 1200 420" role="img"
-     aria-label="Ch1rpys — AI 应用开发 / 音乐游戏">
+     aria-label="Ch1rpys — 独立开发者 / 音乐游戏">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0.35" y2="1">
       <stop offset="0" stop-color="#0c1222"/>
@@ -66,7 +66,7 @@
   <rect x="70" y="256" width="248" height="3" fill="url(#neon)"/>
 
   <!-- tagline -->
-  <text x="70" y="300" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC','Hiragino Sans GB',sans-serif" font-size="25" fill="#cbd5e1">AI 应用开发 · 音乐游戏制作</text>
+  <text x="70" y="300" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC','Hiragino Sans GB',sans-serif" font-size="25" fill="#cbd5e1">独立开发者 · 音乐游戏制作</text>
 
   <!-- footer line -->
   <text x="70" y="352" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="16" fill="#475569">10minstudio · IPOL-Studio · piae-mentes-project</text>

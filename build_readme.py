@@ -19,13 +19,13 @@ def q(s: str, safe: str = "") -> str:
 # assets/banner.svg（浅色）、banner-dark.svg（深色）、footer.svg
 # 资源放在 assets/<版本>/ 下。raw.githubusercontent 的 CDN 按路径缓存并忽略
 # 查询参数，所以改图必须换目录名（v2 → v3），只改内容会一直发旧图。
-ASSETS = f"https://raw.githubusercontent.com/{U}/{U}/main/assets/v3"
+ASSETS = f"https://raw.githubusercontent.com/{U}/{U}/main/assets/v4"
 HERO = f"{ASSETS}/hero.svg"
 FOOTER = f"{ASSETS}/footer.svg"
 
 # ----------------------------------------------------------------- typing ----
 TYPE_LINES = [
-    "$ AI 应用开发者 / 音乐游戏制作者",
+    "$ 独立开发者 / 音乐游戏制作者",
     "$ 音游《溯 Resux》核心开发 · 10minstudio",
     "$ 开源 AI 数字分身 Mirrai — 让 TA 一直都在",
     "$ 正在做更多 AI 应用 · 也在琢磨音游手感",
@@ -79,7 +79,7 @@ SKILL_ICONS = (
 
 
 README = f"""<p align="center">
-  <img src="{HERO}" alt="Ch1rpys — AI 应用开发 / 音乐游戏"/>
+  <img src="{HERO}" alt="Ch1rpys — 独立开发者 / 音乐游戏"/>
 </p>
 
 <p align="center">
@@ -102,7 +102,7 @@ README = f"""<p align="center">
 
 ## 👋 关于我 · About
 
-- 🤖 **AI 应用开发** — 用 TypeScript / Python 把大模型塞进真正能用的产品里
+- 💻 **独立开发者** — 一个人从零做到上线；主力项目是开源 AI 数字分身 [Mirrai](https://github.com/{U}/Mirrai)
 - 🎮 **音乐游戏** — 10minstudio 音游《溯 Resux》核心开发；参与 CyanStars 中文虚拟歌手同人音游企划
 - 🐧 **内核移植** — 最近开始给小米平板 8 Pro 试水 Linux 移植，才刚上手
 
