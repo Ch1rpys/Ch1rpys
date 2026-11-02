@@ -175,9 +175,9 @@ README = f"""<p align="center">
   </picture>
   <br><br>
   <b>组织 · Organizations</b><br>
-  <a href="https://github.com/piae-mentes-project">piae-mentes-project</a> — 10minstudio 音游《溯 Resux》<br>
-  <a href="https://github.com/IPOL-Studio">IPOL-Studio</a> — CyanStars 中文虚拟歌手同人音游企划<br>
-  <a href="https://github.com/YunYingWeb">YunYingWeb</a> — 运营中台 · ONEDUSH 制谱器
+  <a href="https://github.com/piae-mentes-project">piae-mentes-project</a> — 10minstudio《溯 Resux》<br>
+  <a href="https://github.com/IPOL-Studio">IPOL-Studio</a> — CyanStars 音游企划<br>
+  <a href="https://github.com/YunYingWeb">YunYingWeb</a> — 运营中台 · ONEDUSH
 </td>
 </tr>
 </table>
