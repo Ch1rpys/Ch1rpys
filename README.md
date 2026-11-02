@@ -3,7 +3,11 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1500&color=22D3EE&center=true&vCenter=true&width=700&lines=%24%20AI%20%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E8%80%85%20%2F%20%E9%9F%B3%E4%B9%90%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C%E8%80%85;%24%20%E9%9F%B3%E6%B8%B8%E3%80%8A%E6%BA%AF%20Resux%E3%80%8B%E6%A0%B8%E5%BF%83%E5%BC%80%E5%8F%91%20%C2%B7%2010minstudio;%24%20%E5%BC%80%E6%BA%90%20AI%20%E6%95%B0%E5%AD%97%E5%88%86%E8%BA%AB%20Mirrai%20%E2%80%94%20%E8%AE%A9%20TA%20%E4%B8%80%E7%9B%B4%E9%83%BD%E5%9C%A8;%24%20Linux%20%E5%86%85%E6%A0%B8%E7%A7%BB%E6%A4%8D%20%E2%80%94%20%E5%B0%8F%E7%B1%B3%E5%B9%B3%E6%9D%BF%208%20Pro;%24%20Building%20things%20that%20sing%2C%20and%20kernels%20that%20boot.&repeat=true" alt="Ch1rpy 的自我介绍" width="660"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1500&color=22D3EE&center=true&vCenter=true&width=700&lines=%24%20AI%20%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E8%80%85%20%2F%20%E9%9F%B3%E4%B9%90%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C%E8%80%85;%24%20%E9%9F%B3%E6%B8%B8%E3%80%8A%E6%BA%AF%20Resux%E3%80%8B%E6%A0%B8%E5%BF%83%E5%BC%80%E5%8F%91%20%C2%B7%2010minstudio;%24%20%E5%BC%80%E6%BA%90%20AI%20%E6%95%B0%E5%AD%97%E5%88%86%E8%BA%AB%20Mirrai%20%E2%80%94%20%E8%AE%A9%20TA%20%E4%B8%80%E7%9B%B4%E9%83%BD%E5%9C%A8;%24%20Linux%20%E5%86%85%E6%A0%B8%E7%A7%BB%E6%A4%8D%20%E2%80%94%20%E5%B0%8F%E7%B1%B3%E5%B9%B3%E6%9D%BF%208%20Pro;%24%20Building%20things%20that%20sing%2C%20and%20kernels%20that%20boot.&repeat=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1500&color=7C3AED&center=true&vCenter=true&width=700&lines=%24%20AI%20%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E8%80%85%20%2F%20%E9%9F%B3%E4%B9%90%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C%E8%80%85;%24%20%E9%9F%B3%E6%B8%B8%E3%80%8A%E6%BA%AF%20Resux%E3%80%8B%E6%A0%B8%E5%BF%83%E5%BC%80%E5%8F%91%20%C2%B7%2010minstudio;%24%20%E5%BC%80%E6%BA%90%20AI%20%E6%95%B0%E5%AD%97%E5%88%86%E8%BA%AB%20Mirrai%20%E2%80%94%20%E8%AE%A9%20TA%20%E4%B8%80%E7%9B%B4%E9%83%BD%E5%9C%A8;%24%20Linux%20%E5%86%85%E6%A0%B8%E7%A7%BB%E6%A4%8D%20%E2%80%94%20%E5%B0%8F%E7%B1%B3%E5%B9%B3%E6%9D%BF%208%20Pro;%24%20Building%20things%20that%20sing%2C%20and%20kernels%20that%20boot.&repeat=true">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1500&color=7C3AED&center=true&vCenter=true&width=700&lines=%24%20AI%20%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E8%80%85%20%2F%20%E9%9F%B3%E4%B9%90%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C%E8%80%85;%24%20%E9%9F%B3%E6%B8%B8%E3%80%8A%E6%BA%AF%20Resux%E3%80%8B%E6%A0%B8%E5%BF%83%E5%BC%80%E5%8F%91%20%C2%B7%2010minstudio;%24%20%E5%BC%80%E6%BA%90%20AI%20%E6%95%B0%E5%AD%97%E5%88%86%E8%BA%AB%20Mirrai%20%E2%80%94%20%E8%AE%A9%20TA%20%E4%B8%80%E7%9B%B4%E9%83%BD%E5%9C%A8;%24%20Linux%20%E5%86%85%E6%A0%B8%E7%A7%BB%E6%A4%8D%20%E2%80%94%20%E5%B0%8F%E7%B1%B3%E5%B9%B3%E6%9D%BF%208%20Pro;%24%20Building%20things%20that%20sing%2C%20and%20kernels%20that%20boot.&repeat=true" alt="Ch1rpy 的自我介绍" width="660"/>
+  </picture>
 </p>
 
 <p align="center">
@@ -78,6 +82,12 @@
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api?username=Ch1rpys&show_icons=true&hide_border=true&theme=default&rank_icon=github&include_all_commits=true&line_height=28">
     <img alt="Ch1rpys GitHub Stats" src="https://github-readme-stats-fast.vercel.app/api?username=Ch1rpys&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github&include_all_commits=true&line_height=28"/>
   </picture>
+  <br><br>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Ch1rpys&theme=dark&hide_border=true&border_radius=10&date_format=Y-m-d">
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=Ch1rpys&theme=default&hide_border=true&border_radius=10&date_format=Y-m-d">
+    <img alt="Contribution Streak" src="https://streak-stats.demolab.com?user=Ch1rpys&theme=dark&hide_border=true&border_radius=10&date_format=Y-m-d"/>
+  </picture>
 </td>
 <td width="48%" valign="top">
   <picture>
@@ -86,11 +96,10 @@
     <img alt="Top Languages" src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=Ch1rpys&layout=compact&hide_border=true&theme=tokyonight&langs_count=8"/>
   </picture>
   <br><br>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Ch1rpys&theme=dark&hide_border=true&border_radius=10&date_format=Y-m-d">
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=Ch1rpys&theme=default&hide_border=true&border_radius=10&date_format=Y-m-d">
-    <img alt="Contribution Streak" src="https://streak-stats.demolab.com?user=Ch1rpys&theme=dark&hide_border=true&border_radius=10&date_format=Y-m-d"/>
-  </picture>
+  <b>组织 · Organizations</b><br>
+  <a href="https://github.com/piae-mentes-project">piae-mentes-project</a> — 10minstudio 音游《溯 Resux》<br>
+  <a href="https://github.com/IPOL-Studio">IPOL-Studio</a> — CyanStars 中文虚拟歌手同人音游企划<br>
+  <a href="https://github.com/YunYingWeb">YunYingWeb</a> — 运营中台 · ONEDUSH 制谱器
 </td>
 </tr>
 </table>

@@ -29,13 +29,18 @@ TYPE_LINES = [
     "$ Linux 内核移植 — 小米平板 8 Pro",
     "$ Building things that sing, and kernels that boot.",
 ]
-typing = (
-    "https://readme-typing-svg.demolab.com"
-    "?font=Fira+Code&weight=600&size=26&pause=1500&color=22D3EE"
-    "&center=true&vCenter=true&width=700"
-    f"&lines={q(';'.join(TYPE_LINES), safe=';')}"
-    "&repeat=true"
-)
+def typing_svg(color: str) -> str:
+    return (
+        "https://readme-typing-svg.demolab.com"
+        f"?font=Fira+Code&weight=600&size=26&pause=1500&color={color}"
+        "&center=true&vCenter=true&width=700"
+        f"&lines={q(';'.join(TYPE_LINES), safe=';')}"
+        "&repeat=true"
+    )
+
+
+typing_dark = typing_svg("22D3EE")    # 霓虹青，深色主题
+typing_light = typing_svg("7C3AED")   # 紫罗兰，浅色主题下才看得清
 
 # ------------------------------------------------------------------ stats ----
 def stats(theme: str) -> str:
@@ -76,7 +81,11 @@ README = f"""<p align="center">
 </p>
 
 <p align="center">
-  <img src="{typing}" alt="Ch1rpy 的自我介绍" width="660"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="{typing_dark}">
+    <source media="(prefers-color-scheme: light)" srcset="{typing_light}">
+    <img src="{typing_light}" alt="Ch1rpy 的自我介绍" width="660"/>
+  </picture>
 </p>
 
 <p align="center">
@@ -151,6 +160,12 @@ README = f"""<p align="center">
     <source media="(prefers-color-scheme: light)" srcset="{stats('default')}">
     <img alt="Ch1rpys GitHub Stats" src="{stats('tokyonight')}"/>
   </picture>
+  <br><br>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="{streak('dark')}">
+    <source media="(prefers-color-scheme: light)" srcset="{streak('default')}">
+    <img alt="Contribution Streak" src="{streak('dark')}"/>
+  </picture>
 </td>
 <td width="48%" valign="top">
   <picture>
@@ -159,11 +174,10 @@ README = f"""<p align="center">
     <img alt="Top Languages" src="{langs('tokyonight')}"/>
   </picture>
   <br><br>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="{streak('dark')}">
-    <source media="(prefers-color-scheme: light)" srcset="{streak('default')}">
-    <img alt="Contribution Streak" src="{streak('dark')}"/>
-  </picture>
+  <b>组织 · Organizations</b><br>
+  <a href="https://github.com/piae-mentes-project">piae-mentes-project</a> — 10minstudio 音游《溯 Resux》<br>
+  <a href="https://github.com/IPOL-Studio">IPOL-Studio</a> — CyanStars 中文虚拟歌手同人音游企划<br>
+  <a href="https://github.com/YunYingWeb">YunYingWeb</a> — 运营中台 · ONEDUSH 制谱器
 </td>
 </tr>
 </table>
