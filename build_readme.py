@@ -52,7 +52,7 @@ TYPE_LINES = [
     "AI 应用开发者 / 音乐游戏制作者",
     "音游《溯 Resux》核心开发 · 10minstudio",
     "开源 AI 数字分身 Mirrai — 让 TA 一直都在",
-    "内核搬运工 — 小米平板 8 Pro 钢琴版 Linux 移植",
+    "Linux 内核移植 — 小米平板 8 Pro",
     "Building things that sing, and kernels that boot.",
 ]
 typing = (
@@ -90,59 +90,11 @@ SNAKE = f"https://raw.githubusercontent.com/{U}/{U}/output/github-contribution-g
 SNAKE_DARK = f"https://raw.githubusercontent.com/{U}/{U}/output/github-contribution-grid-snake-dark.svg"
 
 # ------------------------------------------------------------------ icons ----
+# 只留真正在用的技术，别把仓库里出现过的依赖都算进来。
 SKILL_ICONS = (
     "https://skillicons.dev/icons?i="
-    "typescript,python,cs,swift,c,react,nodejs,docker,linux,unity,"
-    "nginx,redis,mysql,postgresql,vite,vitest,pnpm,git,github,discord,"
-    "figma,blender"
+    "typescript,python,cs,linux,unity,react,figma"
 )
-
-
-def badge(label: str, color: str, logo: str = "") -> str:
-    """shields.io static badge.
-
-    shields escapes a literal '-' as '--' inside the label, so escape first
-    and then percent-encode the result (which also handles '#' -> %23).
-    """
-    logo_part = f"&logo={logo}&logoColor=white" if logo else ""
-    return (
-        "https://img.shields.io/badge/"
-        f"{q(label.replace('-', '--'))}-{color}"
-        f"?style=flat-square{logo_part}"
-    )
-
-
-ROW_1 = [
-    (badge("TypeScript-5.9", "3178C6", "typescript"), "https://www.typescriptlang.org"),
-    (badge("Python-3.12", "3776AB", "python"), "https://www.python.org"),
-    (badge("C#-12.0", "68217A", "dotnet"), "https://learn.microsoft.com/dotnet/csharp"),
-    (badge("Unity", "222C37", "unity"), "https://unity.com"),
-    (badge("Swift-6", "F05138", "swift"), "https://www.swift.org"),
-    (badge("Linux Kernel", "FCC624", "linux"), "https://kernel.org"),
-    (badge("Node.js-24", "339933", "nodedotjs"), "https://nodejs.org"),
-    (badge("React-19", "61DAFB", "react"), "https://react.dev"),
-]
-ROW_2 = [
-    (badge("tRPC", "398CCB", "trpc"), "https://trpc.io"),
-    (badge("Docker", "2496ED", "docker"), "https://www.docker.com"),
-    (badge("PostgreSQL", "4169E1", "postgresql"), "https://www.postgresql.org"),
-    (badge("Redis", "DC382D", "redis"), "https://redis.io"),
-    (badge("Nginx", "009639", "nginx"), "https://nginx.org"),
-    (badge("Ollama", "111111", "ollama"), "https://ollama.com"),
-    (badge("WeChaty", "07C160", "wechat"), "https://wechaty.js.org"),
-    (badge("PyTorch", "EE4C2C", "pytorch"), "https://pytorch.org"),
-]
-
-
-def shield_row(pairs: list[tuple[str, str]]) -> str:
-    """Render a row of shields badges, each linking to its own project site."""
-    return (
-        '<p align="center">\n  '
-        + "\n  ".join(f'<a href="{link}" target="_blank" rel="noopener">'
-                      f'<img src="{img}" alt="{img.split("/badge/")[1].split("?")[0]}"/></a>'
-                      for img, link in pairs)
-        + "\n</p>"
-    )
 
 
 README = f"""<p align="center">
@@ -172,7 +124,7 @@ README = f"""<p align="center">
 
 - 🤖 **AI 应用开发** — 用 TypeScript / Python 把大模型塞进真正能用的产品里；主力项目是开源 AI 数字分身 [Mirrai](https://github.com/{U}/Mirrai)
 - 🎮 **音乐游戏** — 10minstudio 音游《溯 [Resux](https://github.com/piae-mentes-project)》核心开发，负责本体工程、制谱器与剧情编辑器；同时参与 [CyanStars](https://github.com/IPOL-Studio/CyanStars) 中文虚拟歌手同人音游企划
-- 🐧 **内核搬运** — 给小米平板 8 Pro 钢琴版做 Linux 移植：主线内核补丁、驱动适配、Ubuntu 桌面集成
+- 🐧 **内核移植** — 为小米平板 8 Pro 移植 Linux：主线内核补丁、驱动适配、Ubuntu 桌面集成
 - 🛠️ **顺手造轮子** — [pdfcopy](https://github.com/{U}/pdfcopy)，专治 PDF 划线取词断行、混入页码和乱码
 - 🌱 **正在学** — Agent 架构与推理优化、Linux 子系统、音游手感 / 节奏判定算法
 
@@ -185,9 +137,6 @@ README = f"""<p align="center">
 <p align="center">
   <img src="{SKILL_ICONS}" alt="Tech Stack"/>
 </p>
-
-{shield_row(ROW_1)}
-{shield_row(ROW_2)}
 
 ---
 
@@ -223,7 +172,7 @@ README = f"""<p align="center">
 | [**pdfcopy**](https://github.com/{U}/pdfcopy) · ★3 | PDF 划线取词：跨行跨页不丢字、不带页码和 ???；纯离线、不吃 GPU、MIT 开源 | `Python` `tagged-pdf` `ToUnicode` |
 | [**CyanStars**](https://github.com/IPOL-Studio/CyanStars) · ★52 | 中文虚拟歌手同人音游企划：曲谱版本管理、多媒体资源库、剧情编辑器、Malody 谱面转换 | `C#` `Unity` `Python` |
 | [**Resux / 溯**](https://github.com/piae-mentes-project/piae-mentes-core) | 音游《溯》的本体工程，另有[制谱器](https://github.com/piae-mentes-project/Resux-Map-Designer)、剧情编辑器与本地化工具链 | `C#` `Unity` `Python` |
-| [**linux-sm8750-piano**](https://github.com/{U}/linux-sm8750-piano) | 小米平板 8 Pro 钢琴版 Linux 移植：主线 7.2.y 内核树 + 驱动移植 + Ubuntu 桌面集成 | `C` `Linux Kernel` |
+| [**linux-sm8750-piano**](https://github.com/{U}/linux-sm8750-piano) | 小米平板 8 Pro 的 Linux 移植：主线 7.2.y 内核树 + 驱动移植 + Ubuntu 桌面集成 | `C` `Linux Kernel` |
 
 > 还有一些在做但还没开源的东西 —— AI 运维诊断平台、私有化教育云服务之类。等它们成熟了会陆续放出来。
 
